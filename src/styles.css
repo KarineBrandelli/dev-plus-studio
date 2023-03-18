@@ -161,7 +161,56 @@ h2 {
 
 /* MAIN */
 
-/* SECTION */
+/* VIDEO SECTION */
+
+.video-container {
+  gap: 4rem;
+  justify-content: space-between;
+  
+  max-height: 33.25rem;
+  margin-top: 9.125rem;
+  margin-bottom: 15rem;
+}
+
+.video {
+  height: 23.25rem;
+  overflow: hidden;
+  border-radius: 2rem;
+}
+
+.video-text h1 {
+  line-height: 3rem;
+}
+
+.video-text {
+  flex-direction: column;
+
+  max-width: 36rem;
+}
+
+.blue-rectangle {
+  margin-top: 2.5rem;
+  margin-left: -2rem;
+}
+
+.text {
+  gap: 1.875rem;
+  flex-direction: column;
+
+  margin-top: -9rem;
+}
+
+.pink-ellipse {
+  justify-content: flex-end;
+}
+
+.pink-ellipse img {
+  z-index: -1;
+  margin-top: -5rem;
+  margin-right: -2.5rem;
+}
+
+/* SUBSCRIBE SECTION */
 
 .subscribe-container {
   margin: auto;

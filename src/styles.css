@@ -81,6 +81,7 @@ p {
 
 .menu-container {
   gap: 3.75rem;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -137,6 +138,7 @@ h2 {
 /* OUR CLIENT SECTION */
 
 .our-client-container {
+  gap: 2.5rem;
   justify-content: space-between;
 
   margin-top: 6.5rem;
@@ -319,6 +321,12 @@ h2 {
 
 /* RESPONSIVE */
 
+@media screen and (max-width: 1200px) {
+  .footer-information {
+    gap: 3rem;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .hero-container {
     flex-direction: column;
@@ -349,25 +357,9 @@ h2 {
   .blue-rectangle {
     margin-top: 0;
   }
-
-  .footer-information {
-    gap: 3rem;
-  }
 }
 
-@media screen and (max-width: 768px) {
-  .header-container {
-    padding-bottom: 2rem;
-  }
-
-  .nav-container {
-    justify-content: center;
-  }
-
-  .our-client-container {
-    margin: 4.5rem 0;
-  }
-
+@media screen and (max-width: 992px) {
   .video-container {
     gap: 2rem;
     flex-direction: column;
@@ -375,10 +367,6 @@ h2 {
 
     margin-top: 5rem;
     margin-bottom: 0rem;
-  }
-
-  .subscribe-container {
-    padding: 6rem 1rem;
   }
 
   .footer-container {
@@ -404,6 +392,28 @@ h2 {
 
   .footer-information {
     margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-container {
+    padding-bottom: 2rem;
+  }
+
+  .nav-container {
+    justify-content: center;
+  }
+
+  .menu-container {
+    gap: 1.5rem;
+  }
+
+  .our-client-container {
+    margin: 4.5rem 0;
+  }
+
+  .subscribe-container {
+    padding: 6rem 1rem;
   }
 }
 

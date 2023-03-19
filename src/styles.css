@@ -64,7 +64,7 @@ p {
 }
 
 .button:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 /* MENU HEADER */
@@ -82,6 +82,7 @@ p {
 .nav-container {
   justify-content: end;
   margin-inline: auto;
+  padding: 0 2rem;
   width: 79.5rem;
 }
 
@@ -107,13 +108,12 @@ p {
 
 /* HERO SECTION */
 
-h2 {
-  font-weight: 400;
-  font-size: 1.75rem;
+.dev-logo img {
+  width: 12rem;
 }
 
 .hero-container {
-  height: 35rem;
+  min-height: 30rem;
   justify-content: space-between;
 }
 
@@ -155,7 +155,7 @@ h2 {
   gap: 2.5rem;
   justify-content: space-between;
 
-  margin-top: 6.5rem;
+  margin-top: 4.5rem;
   margin-bottom: 5.85rem;
 }
 
@@ -190,7 +190,8 @@ h2 {
   justify-content: space-between;
 
   min-height: 30rem;
-  margin: 9.125rem auto;
+  margin-top: 9.125rem;
+  margin-bottom: 5rem;
 }
 
 .video {
@@ -345,6 +346,7 @@ h2 {
   .hero-container {
     flex-direction: column;
     align-items: center;
+    gap: 12.5rem;
   }
 
   .hero-text {
@@ -363,6 +365,11 @@ h2 {
 
   .hero-btn-dots {
     margin: 2rem auto;
+  }
+
+  .hero-img-meeting {
+    width: 80vw;
+    position: static;
   }
 
   .our-client-logos {
@@ -415,7 +422,7 @@ h2 {
 
 @media screen and (max-width: 768px) {
   .header-container {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
 
   .nav-container {
@@ -426,8 +433,14 @@ h2 {
     gap: 1.5rem;
   }
 
+  .dev-logo {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
   .our-client-container {
-    margin: 4.5rem 0;
+    margin: 4.5rem auto;
   }
 
   .subscribe-container {
@@ -437,21 +450,29 @@ h2 {
 
 @media screen and (max-width: 576px) {
   .header-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
   }
 
   .menu-container {
-    flex-direction: column;
+    gap: 0.75rem;
     align-items: center;
-    gap: 1rem;
+    flex-direction: column;
   }
 
   h1 {
     font-size: 2rem;
   }
 
-  h2 {
-    text-align: center;
+  .hero-container {
+    min-height: 25rem;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-btn-dots {
+    width: 95%;
   }
 
   .our-client-container {
@@ -459,8 +480,18 @@ h2 {
     align-items: center;
     flex-direction: column;
 
-    margin: 3.5rem 0;
+    margin-top: 7.5rem;
+    margin-bottom: 5rem;
     text-align: center;
+  }
+
+  .video-container {
+    margin-top: 3rem;
+  }
+
+  .video-width {
+    width: 100%;
+    height: auto;
   }
 
   .subscribe-content {
@@ -484,13 +515,8 @@ h2 {
     position: static;
   }
 
-  .video-width {
-    width: 100%;
-    height: auto;
-  }
-
   .text {
-    margin-bottom: 5rem;
+    margin-bottom: 2.5rem;
   }
 
   .footer-container {
@@ -508,5 +534,11 @@ h2 {
 
   .footer-information h5 {
     padding-bottom: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .our-client-container {
+    margin: 9.5rem auto;
   }
 }

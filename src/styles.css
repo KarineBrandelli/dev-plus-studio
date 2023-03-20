@@ -198,6 +198,7 @@ p {
   height: 23.25rem;
   overflow: hidden;
   border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
 
 .video-text h1 {

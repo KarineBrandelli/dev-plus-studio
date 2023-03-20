@@ -17,6 +17,10 @@
   --text-descriptions: #565656;
 }
 
+html {
+  scroll-padding-top: 6rem;
+}
+
 body {
   min-height: 100vh;
   background-color: var(--page-background);
@@ -450,6 +454,10 @@ p {
 }
 
 @media screen and (max-width: 576px) {
+  html {
+    scroll-padding-top: 16.75rem;
+  }
+
   .header-container {
     padding-top: 1rem;
   }

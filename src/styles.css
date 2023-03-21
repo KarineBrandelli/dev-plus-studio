@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 1rem;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -187,6 +187,82 @@ p {
 
 /* MAIN PRODUCTS */
 
+.main-container {
+  align-content: center;
+  justify-content: left;
+  height: 990px;
+
+  background-image: url('./assets/main-background.svg');
+  background-size: 94vw;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.main-text {
+  align-self: center;
+  width: 28vw;
+
+  margin-left: 7.8rem;
+  margin-right: 3rem;
+
+  flex-direction: column;
+  justify-content: left;
+}
+
+.main-cards {
+  width: auto;
+
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.main-card-group1 {
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 868px;
+  gap: 2.5rem;
+}
+
+.main-card-group2 {
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 868px;
+  gap: 2.5rem;
+}
+
+.main-card {
+  flex-direction: column;
+  width: 308px;
+  height: 379px;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--page-background);
+  border: 1px solid #f2f2f2;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 40px;
+}
+
+.main-card img {
+  width: 120px;
+}
+
+.main-card h2 {
+  margin: 1.5rem;
+
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+
+.main-card p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+
 /* VIDEO SECTION */
 
 .video-container {
@@ -244,7 +320,7 @@ p {
   padding: 10.1rem 1rem;
   max-width: 85rem;
 
-  background-image: url("./assets/subscribe-background.svg");
+  background-image: url('./assets/subscribe-background.svg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -387,6 +463,25 @@ p {
   .blue-rectangle {
     margin-top: 0;
   }
+
+  .main-container {
+    flex-wrap: wrap;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .main-text {
+    width: 95vw;
+    margin: 16px;
+  }
+  .main-cards {
+    flex-wrap: wrap;
+  }
+
+  .main-card {
+    padding: 2rem;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -446,6 +541,21 @@ p {
 
   .our-client-container {
     margin: 4.5rem auto;
+  }
+
+  .main-container {
+    background-image: none;
+  }
+
+  .main-cards {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-card {
+    width: 300px;
+    height: 370px;
+    padding: 1rem;
   }
 
   .subscribe-container {

@@ -4,17 +4,194 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg">
+    <link rel="icon" type="image/svg+xml" href="./src/assets/favicon.svg" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&display=swap"
-      rel="stylesheet" />
-    <link rel="stylesheet" href="./src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles.css" />
     <title>Dev+ Studio</title>
   </head>
+
   <body>
-    <h1>Hello World!</h1>
+    <header class="header-container flex">
+      <nav class="nav-container flex">
+        <ul class="menu-container flex">
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#what-we-do">What We Do</a>
+          </li>
+          <li>
+            <a href="#service">Service</a>
+          </li>
+          <li>
+            <a href="#project">Project</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="dev-logo flex size" id="home">
+      <img src="./src/assets/dev-plus-logo.svg" />
+    </div>
+
+    <section class="hero-container flex size">
+      <div class="hero-text flex">
+        <h1>A Digital Product Agency</h1>
+        <p>
+          Leading digital agency with solid design and development expertise. We build readymade websites, mobile
+          applications, and elaborate online business services.
+        </p>
+        <div class="hero-btn">
+          <img class="hero-btn-dots absolute" src="src/assets/hero-dots.svg" alt="dots" />
+          <button class="hero-button button absolute">Contact Now</button>
+        </div>
+      </div>
+
+      <div class="hero-img">
+        <img class="hero-img-meeting absolute" src="src/assets/hero-meeting-picture.png" alt="Meeting photo." />
+      </div>
+    </section>
+
+    <section class="our-client-container flex size" id="service">
+      <div class="our-client-text">
+        <h1>Our Client</h1>
+        <p>Several selected clients, who already believe in our service.</p>
+      </div>
+      <div class="our-client-logos flex">
+        <img src="./src/assets/google.svg" alt="Google Logo." />
+        <img src="./src/assets/airbnb.svg" alt="Airbnb Logo." />
+        <img src="./src/assets/uber-eats.svg" alt="Uber Eats Logo." />
+        <img src="./src/assets/amazon.svg" alt="Amazon Logo." />
+      </div>
+    </section>
+
+    <main class="main-container flex" id="what-we-do">
+      <div class="main-text flex">
+        <h1>How can we help your Business?</h1>
+        <p>We build readymade websites, mobile applications, and elaborate online business services.</p>
+      </div>
+
+      <div class="main-cards flex">
+        <div class="main-card-group1 flex">
+          <div class="main-card flex">
+            <img src="src/assets/business-ideia.svg" alt="Box search icon" />
+            <h2>Business Idea Planning</h2>
+            <p>We present you a proposal and discuss niffty-gritty like</p>
+          </div>
+          <div class="main-card flex">
+            <img src="src/assets/development.svg" alt="Minimalist screen icon" />
+            <h2>Development Website and App</h2>
+            <p>Communication protocols apart from engagement models</p>
+          </div>
+        </div>
+        <div class="main-card-group2 flex">
+          <div class="main-card flex">
+            <img src="src/assets/financial.svg" alt="Empty wallet icon" />
+            <h2>Financial Planning System</h2>
+            <p>Protocols apart from aengage models, pricing billing</p>
+          </div>
+          <div class="main-card flex">
+            <img src="src/assets/analysis.svg" alt="Chart square icon" />
+            <h2>Market Analysis Project</h2>
+            <p>Protocols apart from aengage models, pricing billing</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="video-container flex size" id="project">
+      <div class="video-width">
+        <div class="video flex">
+          <iframe
+            width="550"
+            height="100%"
+            src="https://www.youtube.com/embed/cWEH7ftG-BQ"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="pink-ellipse flex">
+          <img src="./src/assets/section-video-pink-ellipse.svg" />
+        </div>
+      </div>
+      <div class="video-text flex">
+        <div class="blue-rectangle flex">
+          <img src="./src/assets/section-video-blue-rectangle.svg" />
+        </div>
+        <div class="text flex">
+          <h1>Great Digital Product Agency since 2016</h1>
+          <p>
+            Our Business Plan is a written document describing a company's core business activites, objectives, and how
+            it plans to achieve its goals. Our goal is to provide our client high quality Product with modern idea
+            accordingly their budgets and according their requirements.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe-container" id="blog">
+      <div class="subscribe-content flex">
+        <div class="subscribe-newsletter flex">
+          <h1>Subscribe Newsletter</h1>
+          <p>I will update good news and promotion service not spam</p>
+        </div>
+        <div class="subscribe-input flex">
+          <input type="text" placeholder="Enter your email address" />
+          <button class="subscribe-button button absolute">Contact Now</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-container flex size">
+      <div class="footer-text-socials">
+        <p class="footer-text">
+          Leading digital agency with solid design and development expertise. We build readymade websites, mobile
+          applications, and elaborate online business services.
+        </p>
+        <div class="footer-socials">
+          <img src="./src/assets/facebook.svg" alt="Facebook Logo." />
+          <img src="./src/assets/twitter.svg" alt="Twitter Logo." />
+          <img src="./src/assets/linkedin.svg" alt="Linkedin Logo." />
+        </div>
+      </div>
+      <div class="footer-information flex">
+        <div>
+          <h5>What We Do</h5>
+          <p>Web Design</p>
+          <p>App Design</p>
+          <p>Social Media Manage</p>
+          <p>Market Analysis Project</p>
+        </div>
+        <div>
+          <h5>Company</h5>
+          <p>About Us</p>
+          <p>Carrer</p>
+          <p>Become Investor</p>
+        </div>
+        <div>
+          <h5>Support</h5>
+          <p>FAQ</p>
+          <p>Policy</p>
+          <p>Business</p>
+        </div>
+        <div id="contact">
+          <h5>Contact</h5>
+          <p>WhatsApp</p>
+          <p>Support 24</p>
+        </div>
+      </div>
+    </footer>
+    <p class="copyright flex">Copyright © 2022 Avi Yansah</p>
   </body>
 </html>

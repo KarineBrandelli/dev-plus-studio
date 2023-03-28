@@ -3,7 +3,7 @@
   padding: 0;
   font-size: 1rem;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -159,7 +159,7 @@ p {
   gap: 2.5rem;
   justify-content: space-between;
 
-  margin-top: 4.5rem;
+  margin-top: 8rem;
   margin-bottom: 5.85rem;
 }
 
@@ -190,9 +190,9 @@ p {
 .main-container {
   align-content: center;
   justify-content: left;
-  height: 990px;
+  height: 61.875rem;
 
-  background-image: url('./assets/main-background.svg');
+  background-image: url("./assets/main-background.svg");
   background-size: 94vw;
   background-position: right;
   background-repeat: no-repeat;
@@ -219,21 +219,21 @@ p {
 .main-card-group1 {
   flex-direction: column;
   justify-content: flex-end;
-  height: 868px;
+  height: 54.25rem;
   gap: 2.5rem;
 }
 
 .main-card-group2 {
   flex-direction: column;
   justify-content: flex-start;
-  height: 868px;
+  height: 54.25rem;
   gap: 2.5rem;
 }
 
 .main-card {
   flex-direction: column;
-  width: 308px;
-  height: 379px;
+  width: 19.25rem;
+  height: 23.65rem;
   padding: 1.5rem;
   align-items: center;
   justify-content: center;
@@ -241,25 +241,23 @@ p {
   background-color: var(--page-background);
   border: 1px solid #f2f2f2;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
-  border-radius: 40px;
+  border-radius: 2.5rem;
 }
 
 .main-card img {
-  width: 120px;
+  width: 7.5rem;
 }
 
 .main-card h2 {
   margin: 1.5rem;
 
   font-weight: 400;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 .main-card p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: center;
 }
 
@@ -310,7 +308,7 @@ p {
 .pink-ellipse img {
   z-index: -1;
   margin-top: -5rem;
-  margin-right: -2.5rem;
+  margin-right: -2rem;
 }
 
 /* SUBSCRIBE SECTION */
@@ -320,7 +318,7 @@ p {
   padding: 10.1rem 1rem;
   max-width: 85rem;
 
-  background-image: url('./assets/subscribe-background.svg');
+  background-image: url("./assets/subscribe-background.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -418,6 +416,10 @@ p {
 /* RESPONSIVE */
 
 @media screen and (max-width: 1200px) {
+  .our-client-container {
+    margin-top: 5rem;
+  }
+
   .footer-information {
     gap: 3rem;
   }
@@ -474,6 +476,7 @@ p {
   .main-text {
     width: 95vw;
     margin: 16px;
+    text-align: center;
   }
   .main-cards {
     flex-wrap: wrap;
@@ -553,9 +556,13 @@ p {
   }
 
   .main-card {
-    width: 300px;
-    height: 370px;
     padding: 1rem;
+    width: 18.75rem;
+    height: 23.125rem;
+  }
+
+  .pink-ellipse {
+    display: none;
   }
 
   .subscribe-container {
@@ -592,6 +599,11 @@ p {
 
   .hero-btn-dots {
     width: 95%;
+  }
+
+  .main-card-group1 {
+    margin-top: 2rem;
+    height: auto;
   }
 
   .our-client-container {

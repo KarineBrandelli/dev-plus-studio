@@ -17,7 +17,7 @@ Você pode acessar a aplicação utilizando um computador, tablet ou celular cli
 Caso deseje clonar esse repositório em sua máquina, rode o seguinte comando para utilizar esse repositório em sua máquina:
 
 ```bash
-git clone git@github.com:KarineBrandelli/dev-plus-studio.git
+git clone https://github.com/KarineBrandelli/dev-plus-studio.git
 ```
 
 Não é necessária nenhuma instalação de dependências para a utilização do projeto.

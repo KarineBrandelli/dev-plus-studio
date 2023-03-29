@@ -151,6 +151,7 @@ p {
 .hero-img-meeting {
   right: 0;
   width: 50vw;
+  max-height: 43rem;
 }
 
 /* OUR CLIENT SECTION */
@@ -159,7 +160,7 @@ p {
   gap: 2.5rem;
   justify-content: space-between;
 
-  margin-top: 8rem;
+  margin-top: 15rem;
   margin-bottom: 5.85rem;
 }
 

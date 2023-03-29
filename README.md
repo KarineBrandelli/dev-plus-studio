@@ -12,7 +12,7 @@ A fim de desenvolver os conhecimentos técnicos obtidos no programa de formaçã
 
 ## Como acessar a página?
 
-Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse link]().
+Você pode acessar a aplicação utilizando um computador, tablet ou celular clicando [nesse link](https://dev-plus-studio.vercel.app/).
 
 Caso deseje clonar esse repositório em sua máquina, rode o seguinte comando para utilizar esse repositório em sua máquina:
 
@@ -23,7 +23,7 @@ git clone https://github.com/KarineBrandelli/dev-plus-studio.git
 Não é necessária nenhuma instalação de dependências para a utilização do projeto.
 
 <p align="center">
-  <img alt="App Layout" src="" width="80%">
+  <img alt="App Layout" src="https://user-images.githubusercontent.com/108953489/228315341-87b4f411-2b30-44cb-aba2-07a2cd28de27.gif" width="80%">
 </p>
 
 ## Contribuição
